@@ -123,6 +123,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
 		H.mind.AddSpell(S)
+	
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legate	// 14mm Pistol, Goliath
 	name = "Legate"
@@ -140,6 +141,10 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	l_hand = /obj/item/tank/internals/oxygen
 	ears = /obj/item/radio/headset/headset_legion/cent
 	box = /obj/item/storage/box/legate
+	backpack_contents = list(
+		/obj/item/restraints/legcuffs/bola = 1,
+		/obj/item/book/granter/martial/cqc = 1,
+		)
 
 
 // ORATOR
