@@ -188,4 +188,4 @@
 	icon_state = "legion_legate"
 	item_state = "legion_legate"
 	transfer_prints = FALSE
-	armor = list("melee" = 25, "bullet" = 25, "laser" = 35, "energy" = 20, "bomb" = 35, "bio" = 35, "rad" = 35, "fire" = 0, "acid" = 0)
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 45, "energy" = 20, "bomb" = 35, "bio" = 35, "rad" = 25, "fire" = 0, "acid" = 0)
